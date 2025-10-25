@@ -1,5 +1,3 @@
-# This is no longer being maintained.
-
 # Worgoblin Module
 
 [![core-build](https://github.com/benjymansy123/mod-worgoblin/actions/workflows/core-build.yml/badge.svg)](https://github.com/benjymansy123/mod-worgoblin/actions/workflows/core-build.yml)
@@ -25,6 +23,10 @@ Or you can do it manually through a text editor of your choice by changing the l
 ### 2) Replace the DBC files in your AzerothCore Data directory with the ones provided in [DBFilesClient](https://github.com/heyitsbench/mod-worgoblin/tree/master/data/patch/DBFilesClient).
 
 Upon downloading the repo, you'll have the patch-contents file available to you. Copy all the contents of the DBFilesClient folder to your AzerothCore Data directory. Feel free to make a backup of the DBCs you'll be replacing, as backups never hurt.
+
+If you have added existing custom content (Spells, Items, SkillLines..etc) to any of the DBC files listed in patch, you will want to merge and DBC file conflicts that happen.  There are multiple paths of doing this easiest likely being using DBXeditor with import on any conflicting files.
+
+If you have added existing custom content (Spells, Items, SkillLines..etc) to any of the DBC files listed in patch, you will want to merge and DBC file conflicts that happen.  There are multiple paths of doing this easiest likely being using DBXeditor with import on any conflicting files.
 
 ### 3) Compile and install AzerothCore.
 
